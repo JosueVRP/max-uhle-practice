@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main-container" class="main-container w-100 vh-100 d-flex">
+        <div id="sidebar" class="sidebar h-100 shadow">
+            <div class="logo-container d-flex align-items-center bg-white w-100 p-4">
+                <img id="logo" src="./assets/logocolegio.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="buttons-container d-flex flex-column p-3 mt-2 pt-0">
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-person-video2"></i>
+                    Mis clases
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-person-x-fill"></i>
+                    Reemplazos
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-person-vcard-fill"></i>
+                    Mis reportes
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-calendar-date-fill"></i>
+                    Calendario
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-person-badge-fill"></i>
+                    Tutor
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-info-circle-fill"></i>
+                    Inf. Académica
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-bookmark-fill"></i>
+                    Registros de clases
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-clock-fill"></i>
+                    Regularizar registros
+                </a>
+                <a id="group-distribution-btn" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-person-hearts"></i>
+                    Distribución de grupos
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-flag-fill"></i>
+                    Reportes de coordinador
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-gear-fill"></i>
+                    Configuraciones
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-file-ruled-fill"></i>
+                    Procesos
+                </a>
+                <a href="" class="sidebar-button btn btn-light">
+                    <i class="sidebar-icons bi bi-door-open-fill"></i>
+                    Salir
+                </a>
+            </div>
+        </div>
+        <div class="w-100 vh-100">
+            <div class="top-bar d-flex align-items-center justify-content-between w-100">
+                <div class="arrow-button-container d-flex align-items-center justify-content-between ms-3"
+                    style="height: 100%; width: 100px;">
+                    <button id="arrow-button" class="top-bar-button btn btn-dark">
+                        <i class="top-bar-icons bi bi-arrow-bar-left"></i>
+                    </button>
+                    <button id="arrow-button-right" class="top-bar-button btn btn-dark">
+                        <i class="top-bar-icons bi bi-arrow-bar-right"></i>
+                    </button>
+                </div>
+                <div class="theme-button-container h-100 d-flex justify-content-between align-items-center me-3"
+                    style="height: 100%; width: 100px">
+                    <button id="dark-button" class="top-bar-button  btn btn-dark"">
+                    <i class="top-bar-icons bi bi-moon-fill"></i>
+                    </button>
+                    <button id="light-button" class="top-bar-button btn btn-dark">
+                        <i class="top-bar-icons bi bi-brightness-high-fill"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="view-container" class="content d-flex justify-content-center align-items-center w-100" style="height: 90%;">
+                <div class="card-container d-flex" style="flex-wrap: wrap; padding-left: 80px;">
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/evento-virtual.png" alt="">
+                        <span>Mis clases</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/reemplazo.png" alt="">
+                        <span>Reemplazos</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/inmigracion.png" alt="">
+                        <span>Mis reportes</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/calendario.png" alt="">
+                        <span>Calendario</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/mentor.png" alt="">
+                        <span>Tutor</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/educacion.png" alt="">
+                        <span>Inf. Académica</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/registro.png" alt="">
+                        <span>Registro de clases</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/sitio-web.png" alt="">
+                        <span>Regularizar Registros</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/grupo.png" alt="">
+                        <span>Distribución de grupos</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/coordinador.png" alt="">
+                        <span>Reportes de coordinador</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/registro.png" alt="">
+                        <span>Configuraciones</span>
+                    </div>
+                    <div class="buttoncard card d-flex flex-column align-items-center p-3 m-3" style="width: 13%;">
+                        <img class="card-logo" src="./assets/images/reemplazo.png" alt="">
+                        <span>Procesos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

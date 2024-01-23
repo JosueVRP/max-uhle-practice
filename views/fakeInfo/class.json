@@ -1,0 +1,93 @@
+{
+    "clase1": {
+      "seccion_a": {
+        "atributo1": "valor1",
+        "atributo2": "valor2"
+      },
+      "seccion_b": {
+        "atributo3": "valor3",
+        "atributo4": "valor4"
+      },
+      "seccion_c": {
+        "atributo5": "valor5",
+        "atributo6": "valor6"
+      },
+      "seccion_d": {
+        "atributo7": "valor7",
+        "atributo8": "valor8"
+      }
+    },
+    "clase2": {
+      "seccion_a": {
+        "atributo1": "valor1",
+        "atributo2": "valor2"
+      },
+      "seccion_b": {
+        "atributo3": "valor3",
+        "atributo4": "valor4"
+      },
+      "seccion_c": {
+        "atributo5": "valor5",
+        "atributo6": "valor6"
+      },
+      "seccion_d": {
+        "atributo7": "valor7",
+        "atributo8": "valor8"
+      }
+    },
+    "clase3": {
+      "seccion_a": {
+        "atributo1": "valor1",
+        "atributo2": "valor2"
+      },
+      "seccion_b": {
+        "atributo3": "valor3",
+        "atributo4": "valor4"
+      },
+      "seccion_c": {
+        "atributo5": "valor5",
+        "atributo6": "valor6"
+      },
+      "seccion_d": {
+        "atributo7": "valor7",
+        "atributo8": "valor8"
+      }
+    },
+    "clase4": {
+      "seccion_a": {
+        "atributo1": "valor1",
+        "atributo2": "valor2"
+      },
+      "seccion_b": {
+        "atributo3": "valor3",
+        "atributo4": "valor4"
+      },
+      "seccion_c": {
+        "atributo5": "valor5",
+        "atributo6": "valor6"
+      },
+      "seccion_d": {
+        "atributo7": "valor7",
+        "atributo8": "valor8"
+      }
+    },
+    "clase5": {
+      "seccion_a": {
+        "atributo1": "valor1",
+        "atributo2": "valor2"
+      },
+      "seccion_b": {
+        "atributo3": "valor3",
+        "atributo4": "valor4"
+      },
+      "seccion_c": {
+        "atributo5": "valor5",
+        "atributo6": "valor6"
+      },
+      "seccion_d": {
+        "atributo7": "valor7",
+        "atributo8": "valor8"
+      }
+    }
+  }
+  

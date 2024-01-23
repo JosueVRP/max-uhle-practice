@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+p {
+    color: #B20505;
+    font-weight: bold;
+}
+
+
+.borde-animado {
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    border-radius: 10px;
+    animation: giroColor 2s infinite linear;
+}
+
+@keyframes giroColor {
+    0% {
+        border-color: red;
+    }
+
+    25% {
+        border-color: yellow;
+    }
+
+    50% {
+        border-color: green;
+    }
+
+    75% {
+        border-color: blue;
+    }
+
+    100% {
+        border-color: red;
+    }
+}
