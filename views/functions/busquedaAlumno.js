@@ -1,15 +1,18 @@
 const personalInformationSection = document.getElementById("personal-information");
 const personalInformationButton = document.getElementById("personal-information-button");
+const secctions = document.getElementsByTagName("section");
 
-console.log(personalInformationSection.classList);
+console.log(secctions);
 
+function searchAndShow(selectClasses) {
+    if (selectClasses.classList.contains("d-none")) {
+        selectClasses.classList.remove("d-none");
 
-function showSection(sectionSelected) {
-    if(sectionSelected.classList("d-none")){
-
-    };
+    } else {
+        console.log("No se encontro");
+    }
 }
 
-personalInformationButton.addEventListener("click",()=>{
-    showSection(personalInformationSection);
-})
+personalInformationButton.addEventListener("click", () => {
+    searchAndShow(personalInformationSection);
+});

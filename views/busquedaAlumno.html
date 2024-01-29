@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./views-styles/replacement.css" />
+    <link rel="stylesheet" href="./views-styles/busquedaAlumno.css" />
     <title>Busqueda Alumno</title>
 </head>
 
 <body>
-    <div class="main-container w-100 vh-100 p-5">
+    <div class="main-container w-100 h-auto p-4">
         <div>
-            <h5>
+            <h5 class="m-0">
                 Ingrese un alumno a buscar:
             </h5>
             <p class="mt-3">
@@ -25,31 +25,50 @@
             <div class="w-100">
                 <input class="w-100" placeholder="Nombre del alumno..." type="text" />
             </div>
-            <button>Buscar</button>
+            <button>
+                <i class="bi bi-search"></i>
+            </button>
         </div>
-        <div class="info-container w-100 mt-4 card border border-black" style="height: 500px;">
+        <div class="info-container w-100 mt-4 card border border-black" style="height: auto;">
             <div class="card-header bg-dark fw-bold text-white">Nombre del alumno</div>
             <div class="card-body">
-                <div class="w-100 border border-danger">
-                    <button id="personal-information-button" class="w-25 btn btn-dark mr-0">
+                <div>
+                    <p class="fw-bold">Foto Oficial</p>
+                    <div id="profile-photo" class="border border-black mb-4">
+                    </div>
+                </div>
+                <div id="buttons-container" class="w-100 d-flex">
+                    <button id="personal-information-button" class="option w-25 btn btn-dark mr-0 rounded-start">
                         Información personal
                     </button>
-                    <button class="w-25 btn btn-danger">Cursos</button>
-                    <button class="w-25 btn btn-warning">Horario</button>
-                    <button class="w-25 btn btn-light">Información Academica</button>
+                    <button class="option btn btn-danger w-25">Cursos</button>
+                    <button class="option btn btn-warning w-25 ">Horario</button>
+                    <button class="option btn btn-light rounded-end w-25">Información Academica</button>
                 </div>
-                <section id="personal-information" class="d-none w-100 border border-black">
-                    Aqui va la Información personal
-                </section>
-                <section id="courses" class="d-none w-100 border border-black">
-                    Aqui van los cursos
-                </section>
-                <section id="schedule" class="d-none w-100 border border-black">
-                    Aqui van los horarios
-                </section>
-                <section id="academic-information" class="d-none w-100 border border-black">
-                    Aqui va la informacion academica
-                </section>
+                <div id="secctions-container" class="mt-3">
+                    <section id="personal-information" class="h-100 d-flex border border-black p-3">
+                        <div class="w-50">
+                            <p class="select-paragraph">Apellido Paterno: <span>Manrique</span></p>
+                            <p class="select-paragraph">Apellido Materno: <span>Obando</span></p>
+                            <p class="select-paragraph">Nombres: <span>Mariana Obando</span></p>
+                            <p class="select-paragraph">Documento: <span>79197282</span></p>
+                        </div>
+                        <div class="w-50">
+                            <p class="select-paragraph">Fecha de nacimiento: <span>2015-07-19</span></p>
+                            <p class="select-paragraph">Telefono: <span>484894</span></p>
+                            <p class="select-paragraph">Correo: <span>Correo</span></p>
+                        </div>
+                    </section>
+                    <section id="courses" class="d-none w-100 border border-black">
+                        Aqui van los cursos
+                    </section>
+                    <section id="schedule" class="d-none w-100 border border-black">
+                        Aqui van los horarios
+                    </section>
+                    <section id="academic-information" class="d-none w-100 border border-black">
+                        Aqui va la informacion academica
+                    </section>
+                </div>
             </div>
         </div>
     </div>
