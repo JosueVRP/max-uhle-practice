@@ -1,14 +1,27 @@
+/* Styles for Search Section */
+
+.input-container input{
+    border-radius: 0;
+}
+
+.input-container button{
+    border-radius: 0;
+}
+
+/* Styles for Options Section */
+
 .option{
     border-radius: 0;
     font-weight: bold;
     margin: 0%;
 }
 
+/* Styles for photo section */
+
 #profile-photo{
     border-radius: 8px;
     height: 230px;
     width: 200px;
-
 }
 
 .select-paragraph{
@@ -21,3 +34,47 @@ span{
     color: black;
     font-weight: normal;
 }
+
+.button-column{
+    text-align: center;
+}
+
+#thead-courses{
+    border-width: 0px 0px 2px 0px;
+}
+
+/* Styles for the schedule table */
+
+.td-schedule p {
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Styles for academic information */
+
+/* Animations classes */
+
+.fade-in {
+	-webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* Animation keyframes */
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
